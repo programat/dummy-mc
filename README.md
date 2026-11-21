@@ -1,4 +1,4 @@
-# Dummy MC
+# Dummy MC (Mission Control)
 
 [![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)](main.swift)
 [![Release](https://img.shields.io/github/v/release/programat/dummy-mc?style=for-the-badge)](https://github.com/programat/dummy-mc/releases)
