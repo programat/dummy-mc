@@ -14,14 +14,23 @@ Zoom out in macOS Mission Control. Smaller previews leave more room between wind
 
 ## Quick start
 
+The release build requires a Mac with Apple silicon and macOS 26 or later.
+
+1. Download `Dummy-MC-macOS-arm64.zip` from [Releases](https://github.com/programat/dummy-mc/releases).
+2. Unzip it and open `Dummy MC.app`.
+
+If Gatekeeper blocks the first launch, go to **System Settings → Privacy & Security** and click **Open Anyway**. [Apple’s instructions](https://support.apple.com/en-us/102445)
+
+Choose **Moderate** or **Strong** from the window icon in the menu bar, then press **Control + ↑**. Choose **Off** to go back to the normal layout.
+
+### Build from source
+
 Build from the repository folder with the Xcode Command Line Tools installed.
 
 ```sh
 ./build.sh
 open 'dist/Dummy MC.app'
 ```
-
-Choose **Moderate** or **Strong** from the window icon in the menu bar, then press **Control + ↑**. Choose **Off** to go back to the normal layout.
 
 ## The bug
 
